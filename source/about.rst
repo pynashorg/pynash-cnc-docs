@@ -10,15 +10,15 @@ In addition to that code of conduct we are also using the `Hacker School social 
 
   * No well-actually's
 
-  A well-actually happens when someone says something that's almost - but not entirely - correct, and you say, "well, actually…" and then give a minor correction. This is especially annoying when the correction has no bearing on the actual conversation. This doesn't mean Hacker School isn't about truth-seeking or that we don't care about being precise. Almost all well-actually's in our experience are about grandstanding, not truth-seeking. (Thanks to Miguel de Icaza for originally coining the term "well-actually.")
+   A well-actually happens when someone says something that's almost - but not entirely - correct, and you say, "well, actually…" and then give a minor correction. This is especially annoying when the correction has no bearing on the actual conversation. This doesn't mean Hacker School isn't about truth-seeking or that we don't care about being precise. Almost all well-actually's in our experience are about grandstanding, not truth-seeking. (Thanks to Miguel de Icaza for originally coining the term "well-actually.")
 
   * No back-seat driving
 
-  If you overhear people working through a problem, you shouldn't intermittently lob advice across the room. This can lead to the "too many cooks" problem, but more important, it can be rude and disruptive to half-participate in a conversation. This isn't to say you shouldn't help, offer advice, or join conversations. On the contrary, we encourage all those things. Rather, it just means that when you want to help out or work with others, you should fully engage and not just butt in sporadically.
+   If you overhear people working through a problem, you shouldn't intermittently lob advice across the room. This can lead to the "too many cooks" problem, but more important, it can be rude and disruptive to half-participate in a conversation. This isn't to say you shouldn't help, offer advice, or join conversations. On the contrary, we encourage all those things. Rather, it just means that when you want to help out or work with others, you should fully engage and not just butt in sporadically.
 
   * No subtle 'isms
 
-  Our last social rule bans subtle sexism, racism, homophobia, etc. This one is different from the rest, because it's often not a specific, observable phenomenon ("well-actually's" are easy to spot because they almost always start with the words, "well, actually…").
+   Our last social rule bans subtle sexism, racism, homophobia, etc. This one is different from the rest, because it's often not a specific, observable phenomenon ("well-actually's" are easy to spot because they almost always start with the words, "well, actually…").
 
 How does Coffee and Code work?
 ------------------------------
