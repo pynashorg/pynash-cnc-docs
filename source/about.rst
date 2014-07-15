@@ -25,7 +25,7 @@ How does Coffee and Code work?
 
 Coffee and code is a different kind of meeting than PyNash normally does.  Everyone is the teacher and the student! Each C-n-C will be lead by a facilitator, but their main job is to set a framework for the discussion.  They aren't there to lecture the whole time, only to demo and teach first :)
 
-Each person will come up after the facilitator is done and demo/share a part of what they did. This is critical to retension and building confidence/trust.
+Each person will come up after the facilitator is done and demo/share a part of what they did. This is critical to retention and building confidence/trust.
 
 Does that mean I need to have something prepared to talk about?
 ---------------------------------------------------------------
