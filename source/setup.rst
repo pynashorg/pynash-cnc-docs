@@ -6,6 +6,10 @@ Setup
 * Get the Vagrant virtual machine that we'll use to work on from `Github <https://github.com/pynashorg/pynash-cnc>`_
 
         git clone git@github.com:pynashorg/pynash-cnc.git
+        
+* Change into that direction
+
+        cd pynash-cnc
 
 * Next we need to download and start the vagrant box (this will take a while the first time because it has to download an ubuntu cloud image)
 
