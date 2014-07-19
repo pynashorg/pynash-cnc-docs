@@ -6,12 +6,14 @@ Getting Started
 Start the VM we'll be working with and connect to it
 
     vagrant up
+    
     vagrant ssh
 
 Next, we need to make sure packages are upto date so let's start by refreshing
 the package list and then upgrading any out of date packages
 
     sudo apt-get update
+    
     sudo apt-get upgrade
 
 
@@ -69,6 +71,7 @@ Using pyenv?
 Let's see what python we are currently using.
 
     pyenv versions
+    
     python --version
 
 Let's see what we can install
@@ -78,6 +81,7 @@ Let's see what we can install
 Let's install the new goodness
 
     pyenv install 3.4.1
+    
     pyenv rehash
 
 Okay check the versions again
@@ -87,9 +91,11 @@ Okay check the versions again
 Okay let's use python 3.4.1 for our user default python
 
     pyenv global 3.4.1
+    
     pyenv versions
 
     python
+    
     import asyncio
 
 Crap back to normal work...
@@ -99,10 +105,13 @@ Crap back to normal work...
 How can I do per project versions?
 
     mkdir -p ~/dev/tests
+    
     cd ~/dev/tests
 
     pyenv local 2.7.8
+    
     ls -al
+    
     cat .python-version
 
 WAIT WAT!?!
@@ -166,12 +175,15 @@ Leaving the virtualenv
 ^^^^^^^^^^^^^^^^^^^^^^
 
     which python
+    
     pip freeze
+    
     deactivate
 
 Notice the python and package listings
 
     which python
+    
     pip freeze
 
 So what is I don't wanna use the pyenv version of python I want a different one
@@ -241,6 +253,7 @@ Removing a project is a two step process
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     rm -rf $PROJECT_HOME/cookies
+    
     rmvirtualenv cookies
 
 Activating an environment or project
@@ -256,6 +269,7 @@ Hooks
 let you add to the behavior of the virtualenvwrapper commands
 
     cd ~/.virtualenv
+    
     ls
 
 `An example <https://github.com/jasonamyers/dotfiles-linux/blob/master/virtualenv/postmkvirtualenv>`_
@@ -280,23 +294,33 @@ Installing Packages
 ^^^^^^^^^^^^^^^^^^^
 
     pip install setuptools;
+    
     pip install wheel
+    
     pip wheel setuptools
+    
     pip wheel virtualenv
+    
     pip install virtualenv virtualenvwrapper
 
 Setting up ENV
 ^^^^^^^^^^^^^^
 
     echo 'export STANDARD_CACHE_DIR="${XDG_CACHE_HOME:-${HOME}/.cache}/pip"' >> ~/.bashrc
+    
     echo 'export WHEELHOUSE="${STANDARD_CACHE_DIR}/Wheelhouse"' >> ~/.bashrc
+    
     echo 'export PIP_USE_WHEEL="yes"' >> ~/.bashrc
+    
     echo 'export PIP_DOWNLOAD_CACHE="${STANDARD_CACHE_DIR}/Downloads"' >> ~/.bashrc
+    
     echo 'export PIP_FIND_LINKS="file://${WHEELHOUSE}"' >> ~/.bashrc
+    
     echo 'export PIP_WHEEL_DIR="${WHEELHOUSE}"' >> ~/.bashrc
 
 Using it right
 ^^^^^^^^^^^^^^
 
     pip wheel ipython
+    
     pip install ipython
